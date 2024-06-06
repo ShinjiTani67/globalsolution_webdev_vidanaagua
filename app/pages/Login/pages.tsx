@@ -6,7 +6,7 @@ interface Values {
   password: string;
 }
 
-const Login = () => {
+const login = () => {
   return (
     <div>
 <Formik
@@ -29,4 +29,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default login

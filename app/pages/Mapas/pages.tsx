@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Mapas = () => {
+const mapas = () => {
   return (
     <div>
       <h1>Aonde estão os incineradores</h1>
@@ -10,4 +10,4 @@ const Mapas = () => {
   )
 }
 
-export default Mapas
+export default mapas
