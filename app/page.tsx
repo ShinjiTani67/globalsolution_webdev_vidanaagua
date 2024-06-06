@@ -8,9 +8,6 @@ export default function Home() {
     <section className='apresentacao'>
     <div>conheça um pouco do projeto</div>
     </section>
-    <div></div>
-    <div></div>
-    <div></div>
     </>
   )
 }
