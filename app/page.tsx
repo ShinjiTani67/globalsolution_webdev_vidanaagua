@@ -1,9 +1,11 @@
+"use client";
 import React from 'react'
-import { Link } from "react-router-dom"
+import Header from './components/Header';
 
 export default function Home() {
   return (
     <>
+    <Header></Header>
     <img className='imgHome'></img>
     <section className='apresentacao'>
     <div>conheça um pouco do projeto</div>

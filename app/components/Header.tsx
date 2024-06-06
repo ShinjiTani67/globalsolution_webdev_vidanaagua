@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const header = () => {
+const Header = () => {
   return (
     <div className='header'>
       <div className='headerRight'><Link href='/'></Link></div>
@@ -17,4 +17,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
