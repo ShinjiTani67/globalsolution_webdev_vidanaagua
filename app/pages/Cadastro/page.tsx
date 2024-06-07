@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 import axios from 'axios';
+import Footer from '@/app/components/Footer';
+import Header from '@/app/components/Header';
 
 async function fetchData() {
   try {
@@ -22,12 +24,14 @@ export default function Cadastro() {
   const [telefone, setTelefone] = useState('');
   const [senha, setSenha] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+
+  function handleSubmit(event: FormEvent<HTMLFormElement>): void {
+    throw new Error('Function not implemented.');
+  }
 
   return (
     <div>
+      <Header></Header>
       <h1>Cadastro</h1>
       <form onSubmit={handleSubmit}>
         <div>
@@ -78,6 +82,7 @@ export default function Cadastro() {
           />
         <button type="submit">Cadastrar</button>
       </form>
+      <Footer></Footer>
     </div>
   );
 }

@@ -22,6 +22,7 @@ O objetivo da OceanQlin é diminuir a quantidade de lixo que despejado pelo meio
     <button className='buttonHome'><a href='/pages/Mapas'>Mapa</a></button>
     <button className='buttonHome'><a href='/pages/Atualidades'>Atualidades</a></button>
     <button className='buttonHome'><a href='/pages/Membros'>Membros</a></button>
+    <button className='buttonHome'><a href='/pages/Cadastro'>Cadastro</a></button>
     </section>
     <Footer></Footer>
     </>
