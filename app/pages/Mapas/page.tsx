@@ -3,6 +3,15 @@ import Image from 'next/image'
 import Footer from '@/app/components/Footer'
 import Header from '@/app/components/Header'
 
+async function fetchData() {
+  try {
+    const response = await axios.get('http://localhost:8080/incineradores/cep');
+    return response.data;
+  } catch (error) {
+    console.error('Erro ao buscar dados da API:', error);
+    return null;
+  }
+}
 
 const mapas = () => {
   return (

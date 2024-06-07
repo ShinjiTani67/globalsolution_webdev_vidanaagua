@@ -5,12 +5,13 @@ import Footer from '@/app/components/Footer';
 import LoginForm from '@/app/components/LoginForm';
 import axios from 'axios';
 
-export async function loginUsuario(credenciais: any) {
+async function fetchData() {
   try {
-    const response = await axios.post(`${BASE_URL}/usuarios/login`, credenciais);
+    const response = await axios.get('http://localhost:8080/usuarios');
     return response.data;
   } catch (error) {
-    throw new Error('Erro ao fazer login: ' + error.message);
+    console.error('Erro ao buscar dados da API:', error);
+    return null;
   }
 }
 

@@ -1,14 +1,18 @@
+"use client";
+
 import { useState } from 'react';
 import axios from 'axios';
 
-export async function cadastrarUsuario(usuario: any) {
+async function fetchData() {
   try {
-    const response = await axios.post('http://localhost:8080/usuarios/cadastro', usuario);
+    const response = await axios.get('http://localhost:8080/usuarios/cadastro');
     return response.data;
   } catch (error) {
-    throw new Error('Erro ao cadastrar usuário: ' + error.message);
+    console.error('Erro ao buscar dados da API:', error);
+    return null;
   }
 }
+
 
 export default function Cadastro() {
   const [nome, setNome] = useState('');
