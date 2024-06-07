@@ -1,4 +1,14 @@
 import { useState } from 'react';
+import axios from 'axios';
+
+export async function cadastrarUsuario(usuario: any) {
+  try {
+    const response = await axios.post('http://localhost:8080/usuarios/cadastro', usuario);
+    return response.data;
+  } catch (error) {
+    throw new Error('Erro ao cadastrar usuário: ' + error.message);
+  }
+}
 
 export default function Cadastro() {
   const [nome, setNome] = useState('');

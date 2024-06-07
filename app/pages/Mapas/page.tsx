@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Footer from '@/app/components/Footer'
 import Header from '@/app/components/Header'
 
+
 const mapas = () => {
   return (
     <div>
