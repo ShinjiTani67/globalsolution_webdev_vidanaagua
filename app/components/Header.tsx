@@ -8,7 +8,7 @@ export function Header() {
       <div className='headerRight'>
         <ul>
         <Link href='/'><Image src='/app/assets/cycling_logo.png' width={50} height={50} alt='cycling'></Image></Link>
-        <p className='oceanQlin'>OcenQlin</p>
+        <p className='oceanQlin'>OceanQlin</p>
         </ul>
         </div>
       <nav className='headerLeft'>
