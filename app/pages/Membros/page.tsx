@@ -5,9 +5,9 @@ const  membros = () => {
     <div>
         <nav>
             <ul>
-                <li>Fernando Tanigushi RM</li>
-                <li>Guilherme Gambarão RM</li>
-                <li>João Vitor Valaitis RM</li>
+                <li>Fernando Tanigushi RM553587</li>
+                <li>Guilherme Gambarão RM554258</li>
+                <li>João Vitor Valaitis RM553972</li>
             </ul>
         </nav> 
     </div>
