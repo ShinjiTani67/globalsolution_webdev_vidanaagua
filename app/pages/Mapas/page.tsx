@@ -19,7 +19,7 @@ const mapas = () => {
     <div>
       <Header></Header>
       <h1>Aonde estão os incineradores</h1>
-      <p>//pesquisa pelo CEP</p>
+      <p>pesquisa pelo CEP</p>
       <Image
       src="/mapa_.png"
       width={500}
