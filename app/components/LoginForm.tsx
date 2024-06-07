@@ -1,7 +1,7 @@
 "use client";
 import {signIn} from "next-auth/react"
 
-import React, { FormEventHandler } from 'react'
+import React, { FormEvent } from 'react'
 
 const LoginForm = () => {
     async function login(e: React.FormEvent<HTMLFormElement>) {

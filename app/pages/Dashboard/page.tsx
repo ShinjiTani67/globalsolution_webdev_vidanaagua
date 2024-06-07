@@ -3,7 +3,7 @@ import { getServerSession } from 'next-auth'
 import { redirect } from 'next/dist/server/api-utils'
 import React from 'react'
 
-export default async function Page() { 
+export default async function Dashboard() { 
     const dashboard = () => {
         const session = await getServerSession();
 
@@ -19,5 +19,5 @@ export default async function Page() {
   )
 }
 }
-export default Page
+export default Dashboard
 

@@ -13,3 +13,13 @@ body{
   height:15vh;
   width: 100vw;
 }
+
+.logoutButton{
+  font-family: karla;
+  height: 26px;
+  width: 120px;
+  border-radius: 5px;
+  font-size: 10px;
+  background-color: #29E252;
+}
+

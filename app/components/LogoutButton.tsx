@@ -2,7 +2,7 @@ import React from 'react'
 
 const LogoutButton = () => {
   return (
-    <button onClick={() => {]}}>Sair</button>
+    <button className="logoutButton" onClick={() => {}}>Sair</button>
   )
 }
 
