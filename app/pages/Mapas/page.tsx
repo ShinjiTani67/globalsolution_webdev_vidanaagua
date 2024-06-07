@@ -10,7 +10,7 @@ const mapas = () => {
       src="/mapa_.png"
       width={500}
       height={500}
-      alt="Picture of the author"
+      alt="mapa"
     />
     </div>
   )
