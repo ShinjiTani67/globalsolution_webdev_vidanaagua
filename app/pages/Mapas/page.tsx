@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Footer from '@/app/components/Footer'
 import Header from '@/app/components/Header'
+import axios from 'axios'
 
 async function fetchData() {
   try {

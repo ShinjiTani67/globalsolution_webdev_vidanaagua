@@ -7,7 +7,7 @@ import axios from 'axios';
 
 async function fetchData() {
   try {
-    const response = await axios.get('http://localhost:8080/usuarios');
+    const response = await axios.get('http://localhost:8080/usuarios/login');
     return response.data;
   } catch (error) {
     console.error('Erro ao buscar dados da API:', error);
