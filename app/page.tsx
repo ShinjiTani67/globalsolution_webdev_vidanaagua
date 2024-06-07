@@ -3,12 +3,13 @@ import React from 'react'
 import Header from './components/Header';
 import Link from 'next/link'
 import Footer from './components/Footer';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <>
     <Header></Header>
-    <div className='imgHome'>OceanQlin</div>
+    <Image src="/public/ocean_pic2.jpg" width={500} height={500} alt='oceano'></Image>
     <section className='apresentacao'>
       <h2>O projeto da OceanQlin</h2>
       <p className="apresentacaoHome">A OceanQlin planeja fazer um sistema que entregue pessoas e empresas a incineradores para poder queimar resíduos, 
