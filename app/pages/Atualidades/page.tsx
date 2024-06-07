@@ -5,7 +5,7 @@ const atualidades = () => {
     <div>
       <h1>Atualidades</h1>
       <p>noticias sobre reciclagem</p>
-      <div>//imagem de coisa</div>      
+      <div><img src='/app/assets/noticias.jpg'></img></div>      
     </div>
   )
 }
