@@ -1,21 +1,22 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Ocean from '../../public/cycling_logo.png'
 
 export function Header() {
   return (
     <div className='header'>
       <div className='headerRight'>
         <ul>
-        <Link href='/'><Image src='/public/cycling_logo.png' width={50} height={50} alt='cycling'></Image></Link>
+        <a href='/'><Image src={Ocean} width={50} height={50} alt='cycling'></Image></a>
         <p className='oceanQlin'>OceanQlin</p>
         </ul>
         </div>
       <nav className='headerLeft'>
         <ul>
-        <li><Link href="/atualidades">Atualidades</Link></li>
-        <li><Link href="/mapas">Mapas</Link></li>
-        <li><Link href="/pages/membros">Membros</Link></li>
+        <li><a href="/pages/Atualidades">Atualidades</a></li>
+        <li><a href="/pages/Mapas">Mapas</a></li>
+        <li><a href="/pages/Membros">Membros</a></li>
         <li><button className='logoutButton'><Link href='/login'>Login</Link></button></li>
         </ul>
       </nav>
