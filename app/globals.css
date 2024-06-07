@@ -7,6 +7,11 @@
 body{
   padding:1rem ;
 }
+
+.oceanQlin{
+  color: #29E252;
+}
+
 .header{
   margin: auto;
   padding: 6px;
@@ -66,4 +71,42 @@ body{
   justify-content: space-between;
   list-style: none;
   font-family: karla;
+}
+.headerLeft{
+  font-size: 20px;
+  color:black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: top;
+  height: auto;
+  width: 25%;
+}
+
+.botoes{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+  padding: 60px;
+  gap:60px;
+}
+.Home{
+  height: 150vh;
+  width: 100vw;
+  font-family: karla;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  align-items: center;
 }
