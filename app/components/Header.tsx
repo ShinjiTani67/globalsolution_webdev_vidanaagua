@@ -1,14 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
-import logo from "../assets/cycling_logo.png"
+import Image from 'next/image'
 
 const Header = () => {
   return (
     <div className='header'>
       <div className='headerRight'>
         <ul>
-        <Link href='/'><img src={logo}></img></Link>
+        <Image src="/cycling_logo.png" width={500} height={500} alt="cycling"/>
         <p className='oceanQlin'>OcenQlin</p>
         </ul>
         </div>

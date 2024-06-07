@@ -1,11 +1,17 @@
 import React from 'react'
+import Image from 'next/image'
 
 const mapas = () => {
   return (
     <div>
       <h1>Aonde estão os incineradores</h1>
       <p>//pesquisa pelo CEP</p>
-      <p>// aqui tem uma imagem de mapa</p>
+      <Image
+      src="/mapa_.png"
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
     </div>
   )
 }

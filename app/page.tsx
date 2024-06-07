@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <>
     <Header></Header>
-    <img className='imgHome' src="/ocean_pic2.jpg"></img>
+    <div className='imgHome'>OceanQlin</div>
     <section className='apresentacao'>
       <div>conheça um pouco do projeto</div>
       <p className="apresentacaoHome"></p>
     </section>
     <section className='botoes'>
-    <button className='buttonHome'><Link href='/mapa'>Mapa</Link></button>
+    <button className='buttonHome'><Link href='/mapas'>Mapa</Link></button>
     <button className='buttonHome'><Link href='/atualidades'>Atualidades</Link></button>
     <button className='buttonHome'><Link href='/membros'>Membros</Link></button>
     </section>
