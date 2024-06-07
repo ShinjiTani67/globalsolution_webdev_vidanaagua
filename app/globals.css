@@ -23,3 +23,10 @@ body{
   background-color: #29E252;
 }
 
+.buttonHome{
+  font-family: karla;
+  height: 120px;
+  width: 26px;
+  border-radius: 5px;
+  background-color: #29E252;
+}

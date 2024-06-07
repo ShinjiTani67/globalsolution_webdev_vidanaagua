@@ -13,9 +13,9 @@ export default function Home() {
       <div>conheça um pouco do projeto</div>
       <p className="apresentacaoHome"></p>
     </section>
-    <button><Link href='/mapa'>Mapa</Link></button>
-    <button><Link href='/atualidades'>Atualidades</Link></button>
-    <button><Link href='/membros'></Link></button>
+    <button className='buttonHome'><Link href='/mapa'>Mapa</Link></button>
+    <button className='buttonHome'><Link href='/atualidades'>Atualidades</Link></button>
+    <button className='buttonHome'><Link href='/membros'>Membros</Link></button>
     <Footer></Footer>
     </>
   )
