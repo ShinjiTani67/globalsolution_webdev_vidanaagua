@@ -7,7 +7,7 @@ export function Header() {
     <div className='header'>
       <div className='headerRight'>
         <ul>
-        <Link href='/'><Image src='/app/assets/cycling_logo.png' width={50} height={50} alt='cycling'></Image></Link>
+        <Link href='/'><Image src='/public/cycling_logo.png' width={50} height={50} alt='cycling'></Image></Link>
         <p className='oceanQlin'>OceanQlin</p>
         </ul>
         </div>
