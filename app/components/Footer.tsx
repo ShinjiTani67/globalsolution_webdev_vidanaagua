@@ -6,7 +6,8 @@ const Footer = () => {
       <p>Copyright</p>
       <p>Fernando Tanigushi RM553587
           Guilherme Gambarão RM554258
-          João Vitor Valaitis RM55397</p>
+          João Vitor Valaitis RM55397
+          TURMA: 1TDSPA</p>
     </div>
   )
 }
