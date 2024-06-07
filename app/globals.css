@@ -129,3 +129,27 @@ ul{
 li{
   padding: 1rem;
 }
+
+.membros{
+  height: 150vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.mapas{
+  height: 150vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.membrosListas{
+  background-color: white;
+  height: 100%;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: auto;
+  padding: 30px;
+}

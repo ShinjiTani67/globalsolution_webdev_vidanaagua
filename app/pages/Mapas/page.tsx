@@ -16,7 +16,7 @@ async function fetchData() {
 
 const mapas = () => {
   return (
-    <div>
+    <div className='mapas'>
       <Header></Header>
       <h1>Aonde estão os incineradores</h1>
       <p>pesquisa pelo CEP</p>
